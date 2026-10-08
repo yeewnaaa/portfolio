@@ -285,9 +285,10 @@ form input[type="submit"]:hover {
 
     .hero {
         flex-direction: column;
-        padding: 35px 20px;
-        min-height: calc(100vh - 80px);
-        gap: 10px;
+        align-items: center;
+        padding: 45px 20px 30px;
+        min-height: auto;
+        gap: 0;
     }
 
     .hero > div:first-child,
@@ -296,23 +297,31 @@ form input[type="submit"]:hover {
         text-align: center;
     }
 
+    .hero > div:first-child {
+        padding-top: 15px;
+    }
+
     .hero h1 {
         font-size: 38px;
         text-align: center;
+        margin-bottom: 15px;
     }
 
     .hero p {
         font-size: 19px;
         text-align: center;
+        margin-bottom: 15px;
     }
 
     .hero a {
-        margin: 20px auto;
+        margin: 20px auto 25px;
     }
 
     .hero img {
         width: 300px;
         max-width: 100%;
+        height: auto;
+        margin-top: 0;
     }
 
     form {
