@@ -285,8 +285,9 @@ form input[type="submit"]:hover {
 
     .hero {
         flex-direction: column;
-        padding: 50px 20px;
+        padding: 35px 20px;
         min-height: calc(100vh - 80px);
+        gap: 10px;
     }
 
     .hero > div:first-child,
@@ -306,11 +307,11 @@ form input[type="submit"]:hover {
     }
 
     .hero a {
-        margin: 25px auto;
+        margin: 20px auto;
     }
 
     .hero img {
-        width: 400px;
+        width: 300px;
         max-width: 100%;
     }
 
